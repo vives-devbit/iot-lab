@@ -1,0 +1,39 @@
+{
+  "name": "@devbit/iot-lab",
+  "version": "0.1.0",
+  "description": "Project describing the Devbit IoT-Lab",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "lint": "markdownlint **/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vives-devbit/iot-lab.git"
+  },
+  "keywords": [
+    "vives",
+    "devbit",
+    "iot",
+    "lab",
+    "iot-lab"
+  ],
+  "author": "Sille Van Landschoot <sille.vanlandschoot@vives.be>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vives-devbit/iot-lab/issues"
+  },
+  "homepage": "https://github.com/vives-devbit/iot-lab#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "markdownlint": "^0.20.1",
+    "markdownlint-cli": "^0.22.0",
+    "vuepress": "^1.4.1"
+  }
+}
