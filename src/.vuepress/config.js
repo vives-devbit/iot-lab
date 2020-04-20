@@ -2,6 +2,7 @@ module.exports = {
     title: 'Devbit IoT-Lab',
     description: 'Devbit IoT-Lab',
     dest: 'dist',
+    patterns: ['**/*.md', '**/*.vue', '!ideas'],
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
